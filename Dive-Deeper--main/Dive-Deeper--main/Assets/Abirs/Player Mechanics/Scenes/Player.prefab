@@ -176,12 +176,13 @@ GameObject:
   - component: {fileID: 689974674620854351}
   - component: {fileID: 689974674620854350}
   - component: {fileID: 689974674620854349}
+  - component: {fileID: 5573984805191096032}
   - component: {fileID: 689974674620854348}
   - component: {fileID: 689974674620854344}
   - component: {fileID: 689974674620854345}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,9 +266,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f00a59684605afc4a8686728d5cc0fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   RotateSpeed: 15
   LeftArmTarget: {fileID: 0}
   RightArmTarget: {fileID: 0}
+--- !u!114 &5573984805191096032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689974674620854339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52821ddd2d222ac42bb057ff2daa6b10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CheckPoints: []
+  CheckpointNum: 0
+  lives: 3
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  gameOver_panel: {fileID: 0}
 --- !u!50 &689974674620854348
 Rigidbody2D:
   serializedVersion: 4

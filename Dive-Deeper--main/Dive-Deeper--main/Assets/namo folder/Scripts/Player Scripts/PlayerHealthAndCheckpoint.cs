@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerHealthAndCheckpoint : MonoBehaviour
 {
 
-	public float speed;
+	
 
     //----------- Checkpoint Vars
     public Transform[] CheckPoints;
@@ -23,14 +23,7 @@ public class PlayerHealthAndCheckpoint : MonoBehaviour
     // We can seperate game over lines in other script by making the var "lives" as static
 
 
-    void Update()
-    {
-        // The player can move if he have lives
-        if (lives > 0)
-        {
-            MovePlayer();
-        }
-    }
+    
 
     #region Collision and Trigger
 
@@ -52,8 +45,8 @@ public class PlayerHealthAndCheckpoint : MonoBehaviour
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
             //
-            FindObjectOfType<SoundManager>().PlaySound("playerCheckpoint");
-            FindObjectOfType<SoundManager>().PlaySound("playerTakeBreath");
+            //FindObjectOfType<SoundManager>().PlaySound("playerCheckpoint");
+            //FindObjectOfType<SoundManager>().PlaySound("playerTakeBreath");
 
             //disable the circle collider of the check point
             collision.gameObject.GetComponent<CircleCollider2D>().enabled = false;
@@ -67,15 +60,7 @@ public class PlayerHealthAndCheckpoint : MonoBehaviour
 
     #region The Functions
 
-    void MovePlayer()
-    {
-        // Get the Input
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-        // Move player based on the Input
-        transform.Translate(x * Time.deltaTime * speed, y * Time.deltaTime * speed, 0);
-
-    }
+    
     void TeleportToCheckpoint()
     {
         // Teleport the player into the right checkpoint
@@ -84,7 +69,7 @@ public class PlayerHealthAndCheckpoint : MonoBehaviour
 
     void TakeDamage()
     {
-        FindObjectOfType<SoundManager>().PlaySound("playerHurt");
+        //FindObjectOfType<SoundManager>().PlaySound("playerHurt");
 
         if (lives >= 0)
         {
