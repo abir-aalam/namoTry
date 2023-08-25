@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public Transform enmey;
-   //public GameObject checkpoint;
+    public GameObject player;
+
     public float speed;
 
-    // This to modify the angel
     public float rotationModifier;
-
 
     private void FixedUpdate()
     {
-            // Calculate the checkpoint position in the same plane as the game object
-            //Vector3 vectorToTarget = checkpoint.position - transform.position.y, checkpoint.position.z);
+        if (player != null)
+        {
+            Vector3 vectorToTarget = player.transform.position - transform.position;
+            float angle = Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg - rotationModifier;
+            Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+            transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * speed);
 
             
-            
-        
+        }
+
     }
 
 
