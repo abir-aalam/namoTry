@@ -44,9 +44,9 @@ public class PlayerHealthAndCheckpoint : MonoBehaviour
         // Player touch Checkpoint
         if (collision.gameObject.CompareTag("Checkpoint"))
         {
-            //
-            //FindObjectOfType<SoundManager>().PlaySound("playerCheckpoint");
-            //FindObjectOfType<SoundManager>().PlaySound("playerTakeBreath");
+            
+            FindObjectOfType<SoundManager>().PlaySound("playerCheckpoint");
+            FindObjectOfType<SoundManager>().PlaySound("playerTakeBreath");
 
             //disable the circle collider of the check point
             collision.gameObject.GetComponent<CircleCollider2D>().enabled = false;
@@ -69,7 +69,7 @@ public class PlayerHealthAndCheckpoint : MonoBehaviour
 
     void TakeDamage()
     {
-        //FindObjectOfType<SoundManager>().PlaySound("playerHurt");
+        FindObjectOfType<SoundManager>().PlaySound("playerHurt");
 
         if (lives >= 0)
         {
