@@ -7394,6 +7394,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.20227478
       objectReference: {fileID: 0}
+    - target: {fileID: 689974674620854348, guid: 158aa2e423a16a4439ddecea7f8c6e31, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 689974674620854349, guid: 158aa2e423a16a4439ddecea7f8c6e31, type: 3}
       propertyPath: Player
       value: 
@@ -7424,7 +7428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 689974674620854351, guid: 158aa2e423a16a4439ddecea7f8c6e31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.92
+      value: -6.69
       objectReference: {fileID: 0}
     - target: {fileID: 689974674620854351, guid: 158aa2e423a16a4439ddecea7f8c6e31, type: 3}
       propertyPath: m_LocalPosition.z
