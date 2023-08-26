@@ -19,11 +19,17 @@ public class SoundManager : MonoBehaviour
             s.source.loop = s.loop;
             s.source.playOnAwake = s.playOnAwake;
         }
+        PlayBackgroundSound();
     }
 
     public void PlaySound(string name)
     {
        Sound s = Array.Find(sounds, sound => sound.soundName == name);
+        s.source.Play();
+    }
+    public void PlayBackgroundSound()
+    {
+        Sound s = Array.Find(sounds, sound => sound.soundName == "UnderWaterSound");
         s.source.Play();
     }
 }
