@@ -1456,7 +1456,7 @@ GameObject:
   - component: {fileID: 488154101}
   - component: {fileID: 488154100}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: HeadLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1484,8 +1484,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DIVE DEEPER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7b1d8f03b3a4c94499e8d6ad35f96d10, type: 2}
+  m_sharedMaterial: {fileID: 6410276445666625572, guid: 7b1d8f03b3a4c94499e8d6ad35f96d10, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1573,7 +1573,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  - {fileID: 6410276445666625572, guid: 7b1d8f03b3a4c94499e8d6ad35f96d10, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1604,14 +1604,14 @@ RectTransform:
   m_GameObject: {fileID: 488154099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.50236, y: 0.50236, z: 0.50236}
+  m_LocalScale: {x: 0.6698468, y: 0.6698468, z: 0.6698468}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.5, y: 11.6}
+  m_AnchoredPosition: {x: -7.906, y: 11.364}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &536266443
