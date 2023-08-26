@@ -12,6 +12,7 @@ public class TimeLine : MonoBehaviour
     Bloom b;
     public bool PlayPost = false;
     public int sceneIndex;
+    public AudioSource DumpSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +35,9 @@ public class TimeLine : MonoBehaviour
     public void ChangeScene()
     {
         SceneManager.LoadScene(sceneIndex);
+    }
+    public void PlayWaterDumpMusic()
+    {
+        DumpSound.Play();
     }
 }
