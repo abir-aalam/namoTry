@@ -5,6 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class uiScript : MonoBehaviour
 {
+    public GameObject continueBtn;
+    public void Start()
+    {
+        if(PlayerPrefs.GetInt("WatchedIntro") == 1)
+        {
+            continueBtn.SetActive(true);
+        }else
+        {
+            continueBtn.SetActive(false);
+        }
+    }
     public void LoadScene(int SceneNumber)
     {
         Time.timeScale = 1;
@@ -14,7 +25,7 @@ public class uiScript : MonoBehaviour
 
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene(0);
     }
 
     public void PauseAndResume(int timeScale)

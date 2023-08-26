@@ -2388,6 +2388,18 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4907
+      objectReference: {fileID: 0}
+    - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4907
+      objectReference: {fileID: 0}
+    - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4907
+      objectReference: {fileID: 0}
+    - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.91
       objectReference: {fileID: 0}
@@ -4282,6 +4294,18 @@ PrefabInstance:
     - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.6995
+      objectReference: {fileID: 0}
+    - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6995
+      objectReference: {fileID: 0}
+    - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.6995
       objectReference: {fileID: 0}
     - target: {fileID: 603839898173541050, guid: 0a803cab0e9e9064c8427440eb6fd3f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7222,7 +7246,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 689974674620854344, guid: 158aa2e423a16a4439ddecea7f8c6e31, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 158aa2e423a16a4439ddecea7f8c6e31, type: 3}
 --- !u!4 &1507424430 stripped
 Transform:
@@ -8711,6 +8736,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3796953522095316069, guid: 7c795dea4dc574e4c89effb125164af5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9819
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796953522095316069, guid: 7c795dea4dc574e4c89effb125164af5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.9819
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796953522095316069, guid: 7c795dea4dc574e4c89effb125164af5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.9819
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796953522095316069, guid: 7c795dea4dc574e4c89effb125164af5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.82
       objectReference: {fileID: 0}
@@ -9712,7 +9749,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

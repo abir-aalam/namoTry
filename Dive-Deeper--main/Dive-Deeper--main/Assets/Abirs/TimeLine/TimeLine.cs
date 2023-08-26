@@ -18,6 +18,7 @@ public class TimeLine : MonoBehaviour
     {
         PostVolume = GetComponent<Volume>();
         PostVolume.profile.TryGet(out b);
+        PlayerPrefs.SetInt("WatchedIntro", 1);
     }
 
     // Update is called once per frame
