@@ -8,13 +8,17 @@ public class uiScript : MonoBehaviour
     public GameObject continueBtn;
     public void Start()
     {
-        if(PlayerPrefs.GetInt("WatchedIntro") == 1)
+        if(SceneManager.GetActiveScene().buildIndex == 0)
         {
-            continueBtn.SetActive(true);
-        }else
-        {
-            continueBtn.SetActive(false);
-        }
+            if (PlayerPrefs.GetInt("WatchedIntro") == 1)
+            {
+                continueBtn.SetActive(true);
+            }
+            else
+            {
+                continueBtn.SetActive(false);
+            }
+        }   
     }
     public void LoadScene(int SceneNumber)
     {
