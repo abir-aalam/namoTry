@@ -1033,7 +1033,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (8)
@@ -1123,7 +1123,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (12)
@@ -3193,7 +3193,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (15)
@@ -4052,7 +4052,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (6)
@@ -5353,7 +5353,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (10)
@@ -6610,7 +6610,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (5)
@@ -8100,9 +8100,21 @@ PrefabInstance:
       value: 89.449
       objectReference: {fileID: 0}
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond
@@ -8484,7 +8496,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (1)
@@ -9274,7 +9286,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (9)
@@ -9441,7 +9453,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (14)
@@ -12318,7 +12330,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (11)
@@ -12940,7 +12952,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (4)
@@ -13030,7 +13042,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (13)
@@ -13689,7 +13701,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (3)
@@ -13779,7 +13791,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (2)
@@ -15448,7 +15460,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (7)
@@ -16257,7 +16269,7 @@ PrefabInstance:
     - target: {fileID: 8838705083547773418, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 6baed5e017b63cb48992a64b3a0ed486, type: 2}
     - target: {fileID: 8838705083547773431, guid: 1ae53e3cb43a55c4bab0d85b68e3d4ff, type: 3}
       propertyPath: m_Name
       value: Isometric Diamond (16)
