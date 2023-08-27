@@ -15,7 +15,7 @@ public class EndTimeLine : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+
     }
 
     // Update is called once per frame
@@ -34,7 +34,7 @@ public class EndTimeLine : MonoBehaviour
             {
                 StartCoroutine(ChangeScene());
             }
-        }  
+        }
     }
     IEnumerator ChangeScene()
     {
@@ -44,5 +44,9 @@ public class EndTimeLine : MonoBehaviour
     public void LightUp()
     {
         PlayPost = true;
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
