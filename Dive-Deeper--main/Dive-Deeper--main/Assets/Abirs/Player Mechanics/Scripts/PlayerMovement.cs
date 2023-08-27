@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform LeftArmTarget, RightArmTarget;
     void Swim()
     {
-        Camera.main.transform.position = transform.position - Vector3.forward * 5;
+        Camera.main.transform.position = transform.position - Vector3.forward * 10f;
 
         if (Input.GetMouseButtonDown(0))
         {
