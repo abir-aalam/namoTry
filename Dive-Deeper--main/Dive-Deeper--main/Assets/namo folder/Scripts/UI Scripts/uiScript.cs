@@ -29,7 +29,7 @@ public class uiScript : MonoBehaviour
 
     public void Exit()
     {
-        SceneManager.LoadScene(0);
+        Application.Quit();
     }
 
     public void PauseAndResume(int timeScale)
