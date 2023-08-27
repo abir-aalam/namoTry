@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MainScene/DiveDeeperMain.unity
     guid: db47654e4c31354448062e7425b62eaa
+  - enabled: 1
+    path: Assets/MainScene/EndCutScene.unity
+    guid: 6ec91814f72c19442a66f0eaa11674f3
   m_configObjects: {}
